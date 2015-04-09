@@ -59,7 +59,6 @@ hr {
     margin-top: 3px;
 }
 
-
 .fa-angle-down:hover {
   content: "\f107";
   size: 200px;
@@ -332,22 +331,19 @@ fieldset[disabled] .btn-xl.active {
     }
 }
 
-
 header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
     background: linear-gradient(#333 -600%, transparent 99%),
-                url(../img/header-bg-no-engrave.jpg);
+                url(../img/header-bg.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    z-index:-2;
 }
-
 
 
 header .intro-text {
@@ -385,8 +381,8 @@ header .thankyou-text {
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 145px;
-        padding-bottom: 290px;
+        padding-top: 205px;
+        padding-bottom: 200px;
     }
 
     header .intro-text .intro-lead-in {
@@ -419,15 +415,13 @@ header .thankyou-text {
 
 section {
     padding: 10px;
-    z-index:20;
+
 }
 
 section h2.section-heading {
     margin-top: .5%;
     margin-bottom: 4%;
-    font-size: 50px;
-
-
+    font-size: 35px;
 }
 
 section h3.section-subheading .vision {
@@ -449,7 +443,6 @@ section h3.section-subheading .vision {
 .service-heading {
     margin: 15px 0;
     text-transform: none;
-    
 }
 
 #portfolio .portfolio-item {
@@ -1036,8 +1029,7 @@ body {
 /* signup */
 
 input[type=text] {
-    margin-right:5px;
-    padding-bottom:5px; 
+    padding:5px; 
     border:1px solid #ccc; 
     -webkit-border-radius: 5px;
     border-radius: 5px;
@@ -1338,6 +1330,7 @@ input[type=submit] {
 }
 .arc-wrapper h4{
 	position: absolute;
+	z-index: 10;
 	width: 100%;
 	font-size: 39px;
 	bottom: 10px;
@@ -1398,25 +1391,9 @@ input[type=submit] {
 }
 }
 
-
-
 .blur {
-    color: transparent;
-    text-shadow:  0px 1px 1px #3e140d, #fffea2 0px 2px 0px; 
-    font-size: 1.7em;
-        position: absolute;
-    margin-top:70px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-family: "Dancing script";
-}
-}
-.blur2 {
-    
-       color: transparent;
-   text-shadow: 0px 1px 1px #fff, 0px 1px 0px #fff;
-   color: #tras;
-   text-shadow: 0px 1px 1px #fff;
+   color: transparent;
+   text-shadow: 0 0 3px rgba(0,0,0,0.5);
    font-size: 1.2em;
     z-index: 1;
     position: fixed;
@@ -1425,10 +1402,4 @@ input[type=submit] {
     transform: translate(-50%, -50%);
 }
 }
-
-.engrave-input {
-    margin-right:10px;
-    color:black;
-}
-
     
