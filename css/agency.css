@@ -256,8 +256,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #FF5252;
-    background-color: #FF5252;
+    border-color: #fff;
+    background-color: #fff;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -266,7 +266,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #FF5252;
+    background-color: #fff;
 }
 
 .navbar-default .nav li a {
@@ -419,31 +419,45 @@ header .thankyou-text {
 
 section {
     padding: 10px;
-    z-index:20;
+    z-index:22;
 }
 
 section h2.section-heading {
     margin-top: .5%;
     margin-bottom: 4%;
-    font-size: 50px;
-
-
+    font-size: 20px;
 }
 
-section h3.section-subheading .vision {
-    margin-bottom: 75px;
+
+section h3.section-subheading {
+    margin-bottom: 35px;
     text-transform: none;
     font-family: "Titillium Web", sans-serif, "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
-    font-style: italic;
     font-weight: 400;
-    width: 60%;
 }
 
+    
 @media(min-width:768px) {
-    section {
+    
+        section {
         padding: 70px 0;
     }
+    
+section h2.section-heading {
+     margin-top: .5%;
+    margin-bottom: 4%;
+    font-size: 50px;
+}
+    
+    section h3.section-subheading {
+    margin-bottom: 45px;
+    text-transform: none;
+    font-family: "Titillium Web", sans-serif, "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
 }
 
 .service-heading {
