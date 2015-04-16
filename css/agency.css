@@ -469,6 +469,7 @@ section h2.section-heading {
 #portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;
+
 }
 
 #portfolio .portfolio-item .portfolio-link {
@@ -476,6 +477,7 @@ section h2.section-heading {
     position: relative;
     margin: 0 auto;
     max-width: 400px;
+
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
@@ -491,6 +493,7 @@ section h2.section-heading {
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
     opacity: 1;
+
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
@@ -539,6 +542,7 @@ section h2.section-heading {
 
 #portfolio * {
     z-index: 2;
+
 }
 
 @media(min-width:767px) {
@@ -1417,19 +1421,19 @@ input[type=submit] {
 .blur {
     color: transparent;
     opacity:0.8;
-    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4), 0 -1px 0 #916524; 
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4), 0 -1px 0 #684819; 
     font-size: 1.7em;
-        position: absolute;
-    margin-top:70px;
+    position: absolute;
+    top:39%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: "Dancing script";
 }
 }
 .blur2 {
-    
+        margin-top:67px;
        color: transparent;
-   text-shadow: 0px 1px 1px #fff, 0px 1px 0px #fff;
+   text-shadow: 0px 1px 1px #eee, 0px 1px 0px #fff;
    color: #tras;
    text-shadow: 0px 1px 1px #fff;
    font-size: 1.2em;
